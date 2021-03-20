@@ -1,0 +1,12 @@
+$module: 'navbar';
+
+.#{$module} {
+
+&-brand {
+    img {
+        max-height: 6em;
+        padding: 0.7em;
+    }
+}
+
+}

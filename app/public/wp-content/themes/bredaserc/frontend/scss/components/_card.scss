@@ -1,0 +1,30 @@
+$module: 'card';
+
+.#{$module} {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1.3em;
+
+    &__visual {
+        display: inline-flex;
+        flex-direction: column;
+        width: 48%;
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 1em;
+        }
+    }
+
+    &__text {
+        display: inline-flex;
+        flex-direction: column;
+        width: 48%;
+
+        h2 {
+            margin-top: 0;
+        }
+    }
+
+}

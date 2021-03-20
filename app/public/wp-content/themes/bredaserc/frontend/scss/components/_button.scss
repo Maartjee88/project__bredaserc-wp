@@ -1,0 +1,29 @@
+$module: 'button';
+
+.#{$module} {
+    &--primary {
+        background-color: $orange;
+        color: $white;
+        border: 1px solid $orange;
+
+        @include hocus {
+            opacity: 0.8;
+            color: $white;
+            border: 1px solid $orange;
+            transition: all ease-in-out 0.2s;
+        }
+    }
+
+    &--secondary {
+        background-color: $blue;
+        color: $white;
+        border: 1px solid $blue;
+
+        @include hocus {
+            opacity: 0.8;
+            color: $white;
+            border: 1px solid $blue;
+            transition: all ease-in-out 0.2s;
+        }
+    }
+}

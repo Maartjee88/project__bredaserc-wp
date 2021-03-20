@@ -141,9 +141,9 @@ add_action( 'widgets_init', 'bredaserc_widgets_init' );
  */
 function bredaserc_scripts() {
 	wp_enqueue_style( 'bredaserc-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'bredaserc-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'bredaserc-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'bredaserc-script', get_template_directory_uri() . '/frontend/javascript/scripts.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'bredaserc-glider', get_template_directory_uri() . '/frontend/javascript/glider.min.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -178,3 +178,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Custom nav walker with bulma support.
+ */
+require get_template_directory() . '/inc/nav-walker.php';

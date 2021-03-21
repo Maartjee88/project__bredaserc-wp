@@ -182,3 +182,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Custom nav walker with bulma support.
  */
 require get_template_directory() . '/inc/nav-walker.php';
+
+/**
+ * Include ACF fields
+ */
+if( function_exists('acf_add_local_field_group') ) :
+	require_once(get_template_directory() . '/config/acf/blocks.php');
+	require_once(get_template_directory() . '/config/acf/header.php');
+endif;

@@ -1,0 +1,140 @@
+[21-Mar-2021 14:09:58 UTC] PHP Warning:  require_once(./config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:09:58 UTC] PHP Stack trace:
+[21-Mar-2021 14:09:58 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/edit.php:0
+[21-Mar-2021 14:09:58 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/edit.php:10
+[21-Mar-2021 14:09:58 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin.php:34
+[21-Mar-2021 14:09:58 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:09:58 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:09:58 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:09:58 UTC] PHP Fatal error:  require_once(): Failed opening required './config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:09:58 UTC] PHP Stack trace:
+[21-Mar-2021 14:09:58 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/edit.php:0
+[21-Mar-2021 14:09:58 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/edit.php:10
+[21-Mar-2021 14:09:58 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin.php:34
+[21-Mar-2021 14:09:58 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:09:58 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:09:58 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:09:59 UTC] PHP Warning:  require_once(./config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:09:59 UTC] PHP Stack trace:
+[21-Mar-2021 14:09:59 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:0
+[21-Mar-2021 14:09:59 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:22
+[21-Mar-2021 14:09:59 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:09:59 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:09:59 UTC] PHP   5. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:09:59 UTC] PHP Fatal error:  require_once(): Failed opening required './config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:09:59 UTC] PHP Stack trace:
+[21-Mar-2021 14:09:59 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:0
+[21-Mar-2021 14:09:59 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:22
+[21-Mar-2021 14:09:59 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:09:59 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:09:59 UTC] PHP   5. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:34 UTC] PHP Warning:  require_once(./config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:34 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:34 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:34 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:34 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:34 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:34 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:34 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:34 UTC] PHP Fatal error:  require_once(): Failed opening required './config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:34 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:34 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:34 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:34 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:34 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:34 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:34 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:35 UTC] PHP Warning:  require_once(./config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:35 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:35 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:35 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:35 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:35 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:35 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:35 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:35 UTC] PHP Fatal error:  require_once(): Failed opening required './config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:35 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:35 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:35 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:35 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:35 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:35 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:35 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:43 UTC] PHP Warning:  require_once(/config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:43 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:43 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:43 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:43 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:43 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:43 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:43 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:43 UTC] PHP Fatal error:  require_once(): Failed opening required '/config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:43 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:43 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:43 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:43 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:43 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:43 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:43 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:44 UTC] PHP Warning:  require_once(/config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:44 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:44 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:44 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:44 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:44 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:44 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:44 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:44 UTC] PHP Fatal error:  require_once(): Failed opening required '/config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:44 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:44 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:44 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:44 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:44 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:44 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:44 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:46 UTC] PHP Warning:  require_once(/config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:46 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:46 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:0
+[21-Mar-2021 14:11:46 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:22
+[21-Mar-2021 14:11:46 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:46 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:46 UTC] PHP   5. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:46 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:46 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:0
+[21-Mar-2021 14:11:46 UTC] PHP   2. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-admin/admin-ajax.php:22
+[21-Mar-2021 14:11:46 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:46 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:46 UTC] PHP   5. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:48 UTC] PHP Warning:  require_once(/config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:48 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:48 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:48 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:48 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:48 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:48 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:48 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:48 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:48 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:48 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:48 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:48 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:48 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:48 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:48 UTC] PHP Warning:  require_once(/config/acf/header.php): failed to open stream: No such file or directory in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:48 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:48 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:48 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:48 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:48 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:48 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:48 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528
+[21-Mar-2021 14:11:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/config/acf/header.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-content/themes/bredaserc/functions.php on line 190
+[21-Mar-2021 14:11:48 UTC] PHP Stack trace:
+[21-Mar-2021 14:11:48 UTC] PHP   1. {main}() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:0
+[21-Mar-2021 14:11:48 UTC] PHP   2. require() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/index.php:17
+[21-Mar-2021 14:11:48 UTC] PHP   3. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-blog-header.php:13
+[21-Mar-2021 14:11:48 UTC] PHP   4. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-load.php:37
+[21-Mar-2021 14:11:48 UTC] PHP   5. require_once() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-config.php:77
+[21-Mar-2021 14:11:48 UTC] PHP   6. include() /Users/maartje/Documents/Code/Projecten/project__bredaserc-wp/app/public/wp-settings.php:528

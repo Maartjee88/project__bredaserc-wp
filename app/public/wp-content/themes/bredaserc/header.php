@@ -38,7 +38,7 @@
                 <span></span>
             </a>
         </div>
-§
+
         <div class="navbar-menu" id="nav-links">
             <div class="navbar-end">
 			<?php

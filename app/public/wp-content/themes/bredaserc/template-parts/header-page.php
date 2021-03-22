@@ -33,7 +33,7 @@ $image_size = 'full';
                 <div class="column is-6 has-text-centered">
                     <img src="<?php echo $header_image['url'];  ?>" alt="<?php echo $header_image['alt'];  ?>" title="<?php echo $header_image['title'];  ?>" />
                 </div>
-                §
+    
             <?php elseif ($header_type === 'header-page') :
                     echo "This is a page page"; 
             else :

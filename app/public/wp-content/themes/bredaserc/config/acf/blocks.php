@@ -1,4 +1,4 @@
-<?php
+<?php if( function_exists('acf_add_local_field_group') ):
 
 acf_add_local_field_group(array(
 	'key' => 'group_60575fd0a5993',
@@ -212,6 +212,31 @@ acf_add_local_field_group(array(
 					'display' => 'block',
 					'sub_fields' => array(
 						array(
+							'key' => 'field_605863b84c695',
+							'label' => 'Achtergrond',
+							'name' => 'slider_bg',
+							'type' => 'select',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'choices' => array(
+								'section--white' => 'Wit',
+								'section--grey' => 'Grijs',
+							),
+							'default_value' => 'section--white',
+							'allow_null' => 0,
+							'multiple' => 0,
+							'ui' => 0,
+							'return_format' => 'value',
+							'ajax' => 0,
+							'placeholder' => '',
+						),
+						array(
 							'key' => 'field_605768bee0b50',
 							'label' => 'Titel',
 							'name' => 'slider_title',
@@ -282,6 +307,31 @@ acf_add_local_field_group(array(
 					'label' => 'Aanmeldblok',
 					'display' => 'block',
 					'sub_fields' => array(
+						array(
+							'key' => 'field_605863ec4c696',
+							'label' => 'Achtergrond',
+							'name' => 'sign-up_bg',
+							'type' => 'select',
+							'instructions' => '',
+							'required' => 0,
+							'conditional_logic' => 0,
+							'wrapper' => array(
+								'width' => '',
+								'class' => '',
+								'id' => '',
+							),
+							'choices' => array(
+								'section--white' => 'Wit',
+								'section--grey' => 'Grijs',
+							),
+							'default_value' => 'section--white',
+							'allow_null' => 0,
+							'multiple' => 0,
+							'ui' => 0,
+							'return_format' => 'value',
+							'ajax' => 0,
+							'placeholder' => '',
+						),
 						array(
 							'key' => 'field_60576a17e0b54',
 							'label' => 'Titel',
@@ -402,3 +452,5 @@ acf_add_local_field_group(array(
 	'active' => true,
 	'description' => '',
 ));
+
+endif;

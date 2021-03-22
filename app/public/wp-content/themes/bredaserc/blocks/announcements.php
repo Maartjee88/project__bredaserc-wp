@@ -1,5 +1,8 @@
-<?php if( have_rows('announcements_content') ) : ?>
-    <section class="section section--grey announcements">
+<?php 
+$background_color = get_sub_field('announcements_bg');
+
+if( have_rows('announcements_content') ) : ?>
+    <section class="section <?php echo $background_color; ?> announcements">
         <div class="container">
             <div class="columns">
                 <?php while( have_rows('announcements_content') ) : the_row(); 
@@ -23,4 +26,4 @@
             </div>
         </div>
     </section>
-<?php endif; 
+<?php endif; ?>

@@ -1,4 +1,8 @@
 section {
+    &.section--white {
+        background-color: $white;
+    }
+    
     &.section--grey {
         background-color: $grey-light;
     }

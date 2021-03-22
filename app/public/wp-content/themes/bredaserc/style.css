@@ -11767,26 +11767,26 @@ h6 {
 
 .button--primary {
   background-color: #FBA132;
-  color: white;
+  color: #FEFEFE;
   border: 1px solid #FBA132;
 }
 
 .button--primary:hover, .button--primary:focus, .button--primary:active {
   opacity: 0.8;
-  color: white;
+  color: #FEFEFE;
   border: 1px solid #FBA132;
   transition: all ease-in-out 0.2s;
 }
 
 .button--secondary {
   background-color: #328CFB;
-  color: white;
+  color: #FEFEFE;
   border: 1px solid #328CFB;
 }
 
 .button--secondary:hover, .button--secondary:focus, .button--secondary:active {
   opacity: 0.8;
-  color: white;
+  color: #FEFEFE;
   border: 1px solid #328CFB;
   transition: all ease-in-out 0.2s;
 }
@@ -11834,8 +11834,12 @@ h6 {
   padding: 0.7em;
 }
 
+section.section--white {
+  background-color: #FEFEFE;
+}
+
 section.section--grey {
-  background-color: #F5F5F5;
+  background-color: #EDEDED;
 }
 
 .sponsors img {

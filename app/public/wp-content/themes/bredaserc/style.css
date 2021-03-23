@@ -11842,6 +11842,16 @@ section.section--grey {
   background-color: #EDEDED;
 }
 
+section.section--image {
+  background-image: url("./frontend/images/dots.png");
+  background-color: #FBA132;
+  background-size: contain;
+}
+
+section.section--image .columns {
+  background: #FEFEFE;
+}
+
 .sponsors img {
   width: 3em;
   height: auto;

@@ -323,6 +323,7 @@ acf_add_local_field_group(array(
 							'choices' => array(
 								'section--white' => 'Wit',
 								'section--grey' => 'Grijs',
+								'section--image' => 'Patroon',
 							),
 							'default_value' => 'section--white',
 							'allow_null' => 0,

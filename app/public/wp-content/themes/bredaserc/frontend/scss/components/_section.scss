@@ -6,4 +6,15 @@ section {
     &.section--grey {
         background-color: $grey-light;
     }
+
+    &.section--image {
+        background-image: url('./frontend/images/dots.png');
+        background-color: $orange;
+
+        background-size: contain;
+
+        .columns {
+            background: $white;
+        }
+    }
 }

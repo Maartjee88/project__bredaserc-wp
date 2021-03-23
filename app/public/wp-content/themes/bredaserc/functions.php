@@ -140,10 +140,11 @@ add_action( 'widgets_init', 'bredaserc_widgets_init' );
  * Enqueue scripts and styles.
  */
 function bredaserc_scripts() {
+	wp_enqueue_style( 'bredaserc-glider', get_template_directory_uri() . '/frontend/css/glider.min.css', array(), _S_VERSION );
 	wp_enqueue_style( 'bredaserc-style', get_stylesheet_uri(), array(), _S_VERSION );
 
-	wp_enqueue_script( 'bredaserc-script', get_template_directory_uri() . '/frontend/javascript/scripts.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'bredaserc-glider', get_template_directory_uri() . '/frontend/javascript/glider.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'bredaserc-script', get_template_directory_uri() . '/frontend/javascript/scripts.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

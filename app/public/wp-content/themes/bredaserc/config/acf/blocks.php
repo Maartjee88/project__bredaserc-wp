@@ -118,7 +118,7 @@ acf_add_local_field_group(array(
 							),
 							'collapsed' => '',
 							'min' => 0,
-							'max' => 0,
+							'max' => 4,
 							'layout' => 'block',
 							'button_label' => 'Nieuwe mededeling',
 							'sub_fields' => array(

@@ -1,13 +1,36 @@
-<?php 
-$background_color = get_sub_field('announcements_bg');
+<?php $background_color = get_sub_field('announcements_bg');
+
+$rows = get_sub_field('announcements_content');
+$halfRows = ceil(count($rows)/2);
+$first_row = array_slice($rows, 0, $halfRows);
+$second_row = array_slice($rows, $halfRows);
+
+echo $halfRows;
 
 if( have_rows('announcements_content') ) : ?>
     <section class="section <?php echo $background_color; ?> announcements">
         <div class="container">
+        <?php for ($i = 1; $i <= $halfRows; $i++) : 
+            if ($i === 1) : 
+                $ann_content = $first_row; 
+            elseif ($i === 2) :
+                $ann_content = $second_row;
+            endif; 
+
+            $count = count($ann_content); 
+            
+            // echo '<pre>';
+            //     print_r($ann_content);
+            //     echo '</pre>';
+                ?>
+
             <div class="columns">
-                <?php while( have_rows('announcements_content') ) : the_row(); 
-                $image = get_sub_field('announcements_content_img');
-                $button = get_sub_field('announcements_content_btn'); ?>
+            <?php $announcement = 0;
+                for ($c = 1; $c <= $count; $c++) : 
+                $content = $ann_content[$announcement];
+                
+                $image = $content['announcements_content_img'];
+                $button = $content['announcements_content_btn']; ?>
                     <div class="column is-12 is-6-desktop">
                         <div class="card announcement__card">
                             <div class="card__visual">
@@ -17,13 +40,16 @@ if( have_rows('announcements_content') ) : ?>
                                 <?php endif; ?>
                             </div>
                             <div class="card__text">
-                                <h2 class="is-size-4 is-size-4-desktop"><?php echo get_sub_field('announcements_content_title'); ?></h2>
-                                <p><?php echo get_sub_field('announcements_content_text'); ?></p>
+                                <h2 class="is-size-4 is-size-4-desktop"><?php echo $content['announcements_content_title']; ?></h2>
+                                <p><?php echo $content['announcements_content_text']; ?></p>
                             </div>
                         </div>
                     </div>
-                <?php endwhile; ?>
+                <?php 
+            $announcement++;
+            endfor; ?>
             </div>
+        <?php endfor; ?>
         </div>
     </section>
 <?php endif; ?>

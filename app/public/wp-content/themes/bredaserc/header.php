@@ -13,11 +13,9 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -42,18 +40,16 @@
         <div class="navbar-menu" id="nav-links">
             <div class="navbar-end">
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-					'menu_class'     => '',     // ignored
-					'container'      => '',     // ignored
-					'menu_class'     => '',     // ignored
-					'items_wrap'     => '%3$s', // NOT ignored
-					'walker'         => new Bulma_Nav_Menu()
-				)
-			);
-			?>
+            wp_nav_menu(array(
+                    'theme_location' => 'menu-1',
+                    'menu_id'        => 'primary-menu',
+                    'menu_class'     => '',     // ignored
+                    'container'      => '',     // ignored
+                    'menu_class'     => '',     // ignored
+                    'items_wrap'     => '%3$s', // NOT ignored
+                    'walker'         => new Bulma_Nav_Menu()
+                ));
+            ?>
             </div>
         </div>
     </nav>

@@ -22,7 +22,7 @@ $image_size = 'full';
                     </p>
                     <div class="header__sponsors">
                     
-                        <?php if (isset($header_logos) && !empty($header_logos)): 
+                        <?php if (isset($header_logos) && !empty($header_logos)):
                             foreach ($header_logos as $logo) : ?>
                                 <img src="<?php echo $logo['url'];  ?>" alt="<?php echo $logo['alt'];  ?>" title="<?php echo $logo['title'];  ?>" /> <!-- TODO: Add responsive sizes -->
                             <?php endforeach;
@@ -35,7 +35,10 @@ $image_size = 'full';
                 </div>
     
             <?php elseif ($header_type === 'header-page') :
-                    echo "This is a page page"; 
+                    echo "This is a page page";
+
+                    elseif ($header_type === 'header-teams') :
+                        echo "This is a team page";
             else :
                 echo "No header";
             endif; ?>

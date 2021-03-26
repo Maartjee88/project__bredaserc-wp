@@ -11845,7 +11845,7 @@ section.section--grey {
 section.section--image {
   background-image: url("./frontend/images/dots.png");
   background-color: #FBA132;
-  background-size: contain;
+  background-size: cover;
 }
 
 section.section--image .columns {

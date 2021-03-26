@@ -5,28 +5,21 @@ $halfRows = ceil(count($rows)/2);
 $first_row = array_slice($rows, 0, $halfRows);
 $second_row = array_slice($rows, $halfRows);
 
-echo $halfRows;
-
-if( have_rows('announcements_content') ) : ?>
+if (have_rows('announcements_content')) : ?>
     <section class="section <?php echo $background_color; ?> announcements">
         <div class="container">
-        <?php for ($i = 1; $i <= $halfRows; $i++) : 
-            if ($i === 1) : 
-                $ann_content = $first_row; 
+        <?php for ($i = 1; $i <= $halfRows; $i++) :
+            if ($i === 1) :
+                $ann_content = $first_row;
             elseif ($i === 2) :
                 $ann_content = $second_row;
-            endif; 
+            endif;
 
-            $count = count($ann_content); 
-            
-            // echo '<pre>';
-            //     print_r($ann_content);
-            //     echo '</pre>';
-                ?>
+            $count = count($ann_content); ?>
 
             <div class="columns">
             <?php $announcement = 0;
-                for ($c = 1; $c <= $count; $c++) : 
+                for ($c = 1; $c <= $count; $c++) :
                 $content = $ann_content[$announcement];
                 
                 $image = $content['announcements_content_img'];
@@ -45,7 +38,7 @@ if( have_rows('announcements_content') ) : ?>
                             </div>
                         </div>
                     </div>
-                <?php 
+                <?php
             $announcement++;
             endfor; ?>
             </div>

@@ -32,7 +32,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * @see {@link http://tzi.fr/css/responsive/prevent-double-breakpoint}
  *
  */
-@import url("https://fonts.googleapis.com/css?family=Lato:400|Oswald:600");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400|Oswald:600");
 @media (min-width: 30em) {
   html {
     box-sizing: border-box;
@@ -11740,7 +11740,7 @@ html {
 
 /*16px*/
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   line-height: 1.75;
 }
@@ -11749,45 +11749,40 @@ p {
   margin-bottom: 1rem;
 }
 
-h1, h2, h3, h4, h5 {
-  margin: 3rem 0 1.38rem;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
 h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
-  font-family: 'Oswald', sans-serif;
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 .button--primary {
-  background-color: #FBA132;
-  color: #FEFEFE;
-  border: 1px solid #FBA132;
+  background-color: #fba132;
+  color: #fefefe;
+  border: 1px solid #fba132;
 }
 
 .button--primary:hover, .button--primary:focus, .button--primary:active {
   opacity: 0.8;
-  color: #FEFEFE;
-  border: 1px solid #FBA132;
+  color: #fefefe;
+  border: 1px solid #fba132;
   transition: all ease-in-out 0.2s;
 }
 
 .button--secondary {
-  background-color: #328CFB;
-  color: #FEFEFE;
-  border: 1px solid #328CFB;
+  background-color: #328cfb;
+  color: #fefefe;
+  border: 1px solid #328cfb;
 }
 
 .button--secondary:hover, .button--secondary:focus, .button--secondary:active {
   opacity: 0.8;
-  color: #FEFEFE;
-  border: 1px solid #328CFB;
+  color: #fefefe;
+  border: 1px solid #328cfb;
   transition: all ease-in-out 0.2s;
 }
 
@@ -11840,7 +11835,7 @@ h6 {
 }
 
 .footer__menu a:hover, .footer__menu a:focus, .footer__menu a:active {
-  color: #C37200;
+  color: #c37200;
   transition: ease-in-out 0.3 all;
 }
 
@@ -11852,11 +11847,11 @@ h6 {
 
 .footer__socials a {
   margin: 0 0.5em;
-  color: #FBA132;
+  color: #fba132;
 }
 
 .footer__socials a:hover, .footer__socials a:focus, .footer__socials a:active {
-  color: #C37200;
+  color: #c37200;
   transition: ease-in-out 0.3 all;
 }
 
@@ -11878,21 +11873,21 @@ h6 {
 }
 
 section.section--white {
-  background-color: #FEFEFE;
+  background-color: #fefefe;
 }
 
 section.section--grey {
-  background-color: #EDEDED;
+  background-color: #ededed;
 }
 
 section.section--image {
   background-image: url("./frontend/images/dots.png");
-  background-color: #FBA132;
+  background-color: #fba132;
   background-size: cover;
 }
 
 section.section--image .columns {
-  background: #FEFEFE;
+  background: #fefefe;
 }
 
 .sponsors img {

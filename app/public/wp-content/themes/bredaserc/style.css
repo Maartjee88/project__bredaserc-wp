@@ -11819,14 +11819,57 @@ h6 {
   margin-top: 0;
 }
 
+.footer {
+  padding: 3rem 1.5rem;
+}
+
+.footer__sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__sponsors img {
+  display: inline-flex;
+  max-width: 45%;
+  height: 100%;
+}
+
+.footer__menu .navbar-brand {
+  justify-content: center;
+}
+
+.footer__menu a:hover, .footer__menu a:focus, .footer__menu a:active {
+  color: #C37200;
+  transition: ease-in-out 0.3 all;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+}
+
+.footer__socials a {
+  margin: 0 0.5em;
+  color: #FBA132;
+}
+
+.footer__socials a:hover, .footer__socials a:focus, .footer__socials a:active {
+  color: #C37200;
+  transition: ease-in-out 0.3 all;
+}
+
 .header__sponsors {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__sponsors img {
   width: 48%;
+  height: 100%;
 }
 
 .navbar-brand img {

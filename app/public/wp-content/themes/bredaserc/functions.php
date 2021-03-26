@@ -195,5 +195,28 @@ require get_template_directory() . '/inc/nav-walker.php';
  */
 if (function_exists('acf_add_local_field_group')) :
     require_once(get_template_directory() . '/config/acf/blocks.php');
+    require_once(get_template_directory() . '/config/acf/footer.php');
     require_once(get_template_directory() . '/config/acf/header.php');
 endif;
+
+/**
+ * Add ACF options page
+ */
+
+add_action('acf/init', 'my_acf_op_init');
+function my_acf_op_init()
+{
+
+    // Check function exists.
+    if (function_exists('acf_add_options_page')) {
+
+        // Register options page.
+        $option_page = acf_add_options_page(array(
+            'page_title'    => 'Site opties',
+            'menu_title'    => 'Site opties',
+            'menu_slug'     => 'bredaserc-options',
+            'capability'    => 'edit_posts',
+            'redirect'      => false
+        ));
+    }
+}

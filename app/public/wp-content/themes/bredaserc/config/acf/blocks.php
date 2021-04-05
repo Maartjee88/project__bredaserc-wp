@@ -650,7 +650,7 @@ acf_add_local_field_group(array(
         1 => 'discussion',
         2 => 'comments',
     ),
-    'active' => false,
+    'active' => true,
     'description' => '',
 ));
 

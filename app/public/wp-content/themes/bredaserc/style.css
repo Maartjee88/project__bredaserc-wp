@@ -11891,6 +11891,10 @@ section.section--image .columns {
   background: #fefefe;
 }
 
+section .row-reversed {
+  flex-direction: row-reverse;
+}
+
 .sponsors img {
   width: 3em;
   height: auto;

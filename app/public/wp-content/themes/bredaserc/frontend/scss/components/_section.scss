@@ -1,20 +1,24 @@
 section {
-    &.section--white {
-        background-color: $white;
-    }
-    
-    &.section--grey {
-        background-color: $grey-light;
-    }
+  &.section--white {
+    background-color: $white;
+  }
 
-    &.section--image {
-        background-image: url('./frontend/images/dots.png');
-        background-color: $orange;
+  &.section--grey {
+    background-color: $grey-light;
+  }
 
-        background-size: cover;
+  &.section--image {
+    background-image: url("./frontend/images/dots.png");
+    background-color: $orange;
 
-        .columns {
-            background: $white;
-        }
+    background-size: cover;
+
+    .columns {
+      background: $white;
     }
+  }
+
+  .row-reversed {
+    flex-direction: row-reverse;
+  }
 }

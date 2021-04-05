@@ -11753,7 +11753,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   margin: 3rem 0 1.38rem;
   font-family: "Oswald", sans-serif;
   font-weight: 600;

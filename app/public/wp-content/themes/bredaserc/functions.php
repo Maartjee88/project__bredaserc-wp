@@ -220,3 +220,81 @@ function my_acf_op_init()
         ));
     }
 }
+
+/**
+ * Create new post types
+ */
+
+function create_cpt_teams()
+{
+    $labels = array(
+        'name'               => 'Teams',
+        'singular_name'      => 'Team',
+        'search_items'       => 'Zoek teams',
+        'all_items'          => 'Alle teams',
+        'edit_item'          => 'Bewerk team',
+        'new_item'           => 'Voeg nieuw team toe',
+        'update_item'        => 'Update team',
+        'add_new'            => 'Voeg nieuw team toe',
+        'add_new_item'       => 'Voeg nieuw team toe',
+        'new_item_name'      => 'Nieuw team',
+        'not_found'          => 'Geen teams gevonden',
+        'not_found_in_trash' => 'Geen teams in prullenbak gevonden',
+        'menu_name'          => 'Teams'
+    );
+
+    $args = array(
+        'labels'         => $labels,
+        'public'         => true,
+        'has_archive'    => false,
+        'menu_position'  => 5,
+        'description'    => 'Teams van de Bredase RC',
+        'rewrite'        => array('slug' => 'teams'),
+        'menu_icon'      => 'dashicons-groups',
+        'supports'       => array(
+            'title',
+            'custom-fields',
+            'revisions'),
+    );
+         
+    register_post_type('teams', $args);
+}
+
+function create_cpt_games()
+{
+    $labels = array(
+        'name'               => 'Wedstrijden',
+        'singular_name'      => 'Wedstrijd',
+        'search_items'       => 'Zoek wedstrijden',
+        'all_items'          => 'Alle wedstrijden',
+        'edit_item'          => 'Bewerk wedstrijd',
+        'new_item'           => 'Voeg nieuw wedstrijd toe',
+        'update_item'        => 'Update wedstrijd',
+        'add_new'            => 'Voeg nieuw wedstrijd toe',
+        'add_new_item'       => 'Voeg nieuw wedstrijd toe',
+        'new_item_name'      => 'Nieuw wedstrijd',
+        'not_found'          => 'Geen wedstrijden gevonden',
+        'not_found_in_trash' => 'Geen wedstrijden in prullenbak gevonden',
+        'menu_name'          => 'Wedstrijden'
+    );
+
+    $args = array(
+        'labels'         => $labels,
+        'public'         => true,
+        'has_archive'    => false,
+        'menu_position'  => 6,
+        'description'    => 'Wedstrijden van de Bredase RC',
+        'rewrite'        => array('slug' => 'wedstrijden'),
+        'menu_icon'      => 'dashicons-calendar-alt',
+        'supports'       => array(
+            'title',
+            'custom-fields',
+            'revisions'),
+    );
+
+    register_post_type('games', $args);
+}
+
+    // Hooking up our function to theme setup
+    add_action('init', 'create_cpt_games');
+    add_action('init', 'create_cpt_teams');

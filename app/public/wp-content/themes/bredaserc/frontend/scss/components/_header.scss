@@ -1,13 +1,15 @@
-$module: 'header';
+$module: "header";
 
 .#{$module} {
-    &__sponsors {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
+  &__sponsors {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 
-        img {
-            width: 48%;
-        }
+    img {
+      width: 48%;
+      height: 100%;
     }
-};
+  }
+}

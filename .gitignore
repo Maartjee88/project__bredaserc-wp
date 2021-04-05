@@ -1,0 +1,12 @@
+
+app/public/wp-content/uploads/
+
+app/sql/
+
+logs/
+
+app/public/wp-content/node_modules/
+
+app/public/wp-content/.unibeautifyrc.json
+
+app/public/wp-content/package-lock.json

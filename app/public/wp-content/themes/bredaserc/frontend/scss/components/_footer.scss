@@ -1,0 +1,46 @@
+$module: "footer";
+
+.#{$module} {
+  padding: 3rem 1.5rem;
+
+  &__sponsors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      display: inline-flex;
+      max-width: 45%;
+      height: 100%;
+    }
+  }
+
+  &__menu {
+    .navbar-brand {
+      justify-content: center;
+    }
+
+    a {
+      @include hocus {
+        color: $orange-dark;
+        transition: ease-in-out 0.3 all;
+      }
+    }
+  }
+
+  &__socials {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
+
+    a {
+      margin: 0 0.5em;
+      color: $orange;
+
+      @include hocus {
+        color: $orange-dark;
+        transition: ease-in-out 0.3 all;
+      }
+    }
+  }
+}

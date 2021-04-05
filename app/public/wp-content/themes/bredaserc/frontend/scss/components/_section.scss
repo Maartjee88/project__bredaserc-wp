@@ -1,5 +1,20 @@
 section {
+    &.section--white {
+        background-color: $white;
+    }
+    
     &.section--grey {
         background-color: $grey-light;
+    }
+
+    &.section--image {
+        background-image: url('./frontend/images/dots.png');
+        background-color: $orange;
+
+        background-size: cover;
+
+        .columns {
+            background: $white;
+        }
     }
 }
